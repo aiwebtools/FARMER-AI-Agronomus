@@ -105,7 +105,7 @@ const HeroSection = () => {
               <YouTubeEmbed 
                 videoId="fFbtPFkRERA" 
                 autoplay={true} 
-                muted={true}
+                muted={false} // Changed to false to ensure video is unmuted by default
                 className="rounded-lg shadow-2xl"
               />
             </div>

@@ -12,7 +12,7 @@ interface YouTubeEmbedProps {
 const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({
   videoId,
   autoplay = true,
-  muted = true, // Changed default to true for better UX
+  muted = false, // Changed default back to false so videos are unmuted by default
   quality = 'hd1080',
   className = ''
 }) => {
