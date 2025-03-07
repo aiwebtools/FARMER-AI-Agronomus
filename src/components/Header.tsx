@@ -28,22 +28,32 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-4 lg:space-x-6">
             <a href="https://chatgpt.com/g/g-6o6ctHt6Z-agronomus-ai-farming-expert" 
-              className="btn-primary text-sm py-2 px-4 lg:py-3 lg:px-6">
+              className="btn-primary text-sm py-2 px-4 lg:py-3 lg:px-6" 
+              target="_blank" 
+              rel="noopener noreferrer">
               USE Agronomus Now
             </a>
             <a href="https://illuminous.lovable.app/" 
-              className="nav-link text-xs lg:text-sm whitespace-nowrap">
+              className="nav-link text-xs lg:text-sm whitespace-nowrap"
+              target="_blank" 
+              rel="noopener noreferrer">
               Try Illuminous Explorer
             </a>
             <a href="#faq" className="nav-link text-xs lg:text-sm">FAQ</a>
             <a href="#disclaimer" className="nav-link text-xs lg:text-sm">Disclaimer</a>
-            <a href="https://www.aiwebtools.ai" className="nav-link text-xs lg:text-sm">More AI Tools</a>
+            <a href="https://www.aiwebtools.ai" 
+              className="nav-link text-xs lg:text-sm"
+              target="_blank" 
+              rel="noopener noreferrer">
+              More AI Tools
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
           <button 
             className="md:hidden text-white"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
           >
             {mobileMenuOpen ? (
               <X className="h-6 w-6" />
@@ -60,12 +70,16 @@ const Header = () => {
           <nav className="flex flex-col space-y-4 p-4">
             <a href="https://chatgpt.com/g/g-6o6ctHt6Z-agronomus-ai-farming-expert" 
               className="btn-primary text-center"
-              onClick={() => setMobileMenuOpen(false)}>
+              onClick={() => setMobileMenuOpen(false)}
+              target="_blank" 
+              rel="noopener noreferrer">
               USE Agronomus Now
             </a>
             <a href="https://illuminous.lovable.app/" 
               className="text-gray-300 hover:text-agronomus-highlight"
-              onClick={() => setMobileMenuOpen(false)}>
+              onClick={() => setMobileMenuOpen(false)}
+              target="_blank" 
+              rel="noopener noreferrer">
               Try Illuminous World Data Explorer
             </a>
             <a href="#faq" 
@@ -80,7 +94,9 @@ const Header = () => {
             </a>
             <a href="https://www.aiwebtools.ai" 
               className="text-gray-300 hover:text-agronomus-highlight"
-              onClick={() => setMobileMenuOpen(false)}>
+              onClick={() => setMobileMenuOpen(false)}
+              target="_blank" 
+              rel="noopener noreferrer">
               More AI Tools
             </a>
           </nav>

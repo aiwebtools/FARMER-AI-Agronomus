@@ -101,7 +101,14 @@ const HeroSection = () => {
           
           {/* Right Column - Video */}
           <div className="lg:w-1/2 glow-border rounded-lg animate-scale-in">
-            <YouTubeEmbed videoId="fFbtPFkRERA" />
+            <div className="aspect-video">
+              <YouTubeEmbed 
+                videoId="fFbtPFkRERA" 
+                autoplay={true} 
+                muted={true}
+                className="rounded-lg shadow-2xl"
+              />
+            </div>
           </div>
         </div>
       </div>
