@@ -26,14 +26,18 @@ const Header = () => {
           <Logo />
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-4 lg:space-x-6">
             <a href="https://chatgpt.com/g/g-6o6ctHt6Z-agronomus-ai-farming-expert" 
-              className="btn-primary">USE Agronomus: AI Farming Expert Now</a>
+              className="btn-primary text-sm py-2 px-4 lg:py-3 lg:px-6">
+              USE Agronomus Now
+            </a>
             <a href="https://illuminous.lovable.app/" 
-              className="nav-link">Try Illuminous World Data Explorer</a>
-            <a href="#faq" className="nav-link">FAQ</a>
-            <a href="#disclaimer" className="nav-link">Disclaimer</a>
-            <a href="https://www.aiwebtools.ai" className="nav-link">More AI Tools</a>
+              className="nav-link text-xs lg:text-sm whitespace-nowrap">
+              Try Illuminous Explorer
+            </a>
+            <a href="#faq" className="nav-link text-xs lg:text-sm">FAQ</a>
+            <a href="#disclaimer" className="nav-link text-xs lg:text-sm">Disclaimer</a>
+            <a href="https://www.aiwebtools.ai" className="nav-link text-xs lg:text-sm">More AI Tools</a>
           </nav>
 
           {/* Mobile Menu Button */}
