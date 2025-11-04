@@ -33,11 +33,11 @@ const Header = () => {
               rel="noopener noreferrer">
               USE Agronomus Now
             </a>
-            <a href="https://illuminous.lovable.app/" 
+            <a href="https://chatgpt.com/g/g-68d6c0b6cecc8191b38e0d9cf099769d-farm-finder-gpt" 
               className="nav-link text-xs lg:text-sm whitespace-nowrap"
               target="_blank" 
               rel="noopener noreferrer">
-              Try Illuminous Explorer
+              Use Farm Finder GPT
             </a>
             <a href="#faq" className="nav-link text-xs lg:text-sm">FAQ</a>
             <a href="#disclaimer" className="nav-link text-xs lg:text-sm">Disclaimer</a>
@@ -75,12 +75,12 @@ const Header = () => {
               rel="noopener noreferrer">
               USE Agronomus Now
             </a>
-            <a href="https://illuminous.lovable.app/" 
+            <a href="https://chatgpt.com/g/g-68d6c0b6cecc8191b38e0d9cf099769d-farm-finder-gpt" 
               className="text-gray-300 hover:text-agronomus-highlight"
               onClick={() => setMobileMenuOpen(false)}
               target="_blank" 
               rel="noopener noreferrer">
-              Try Illuminous World Data Explorer
+              Use Farm Finder GPT
             </a>
             <a href="#faq" 
               className="text-gray-300 hover:text-agronomus-highlight"
