@@ -36,13 +36,13 @@ const FeaturesSection = () => {
     },
     {
       icon: <Image className="h-7 w-7 text-agronomus-highlight" />,
-      title: "Image Analysis",
-      description: "Diagnoses plant diseases, soil quality, and crop health through advanced image recognition."
+      title: "Plant & Soil Analysis",
+      description: "Identifies plants, diagnoses diseases, and analyzes soil samples through advanced image recognition and data interpretation."
     },
     {
       icon: <Database className="h-7 w-7 text-agronomus-green" />,
-      title: "Data Analysis",
-      description: "Processes and interprets complex agricultural data to provide actionable insights."
+      title: "Data Analysis & Local Farms",
+      description: "Processes agricultural data including soil samples, and helps you find local farms through Farm Finder GPT to support your community."
     },
     {
       icon: <MessageSquare className="h-7 w-7 text-agronomus-blue" />,

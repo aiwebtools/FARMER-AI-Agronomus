@@ -63,8 +63,9 @@ const HeroSection = () => {
               </h1>
               <p className="mt-6 text-xl text-gray-300 leading-relaxed">
                 Revolutionize your agricultural practices with cutting-edge AI technology. 
-                Agronomus delivers expert advice, real-time data analysis, and personalized solutions 
-                for all your farming needs.
+                Agronomus delivers plant identification, soil sample analysis, data interpretation, 
+                and expert advice for all your farming needs. Plus, use Farm Finder GPT to discover 
+                local farms in your area and support local agriculture.
               </p>
             </div>
             
