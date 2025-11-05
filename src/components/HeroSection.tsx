@@ -104,9 +104,9 @@ const HeroSection = () => {
           <div className="lg:w-1/2 glow-border rounded-lg animate-scale-in">
             <div className="aspect-video">
               <YouTubeEmbed 
-                videoId="fFbtPFkRERA" 
+                videoId="DHVwaf7qMDY" 
                 autoplay={true} 
-                muted={false} // Changed to false to ensure video is unmuted by default
+                muted={false}
                 className="rounded-lg shadow-2xl"
               />
             </div>
