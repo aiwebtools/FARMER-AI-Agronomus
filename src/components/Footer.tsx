@@ -113,7 +113,9 @@ const Footer = () => {
             
             <div className="mt-6">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-agronomus-green to-agronomus-blue text-white font-semibold py-2 px-5 rounded-full hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
                 More AI Tools
