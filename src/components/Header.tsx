@@ -41,7 +41,7 @@ const Header = () => {
             </a>
             <a href="#faq" className="nav-link text-xs lg:text-sm">FAQ</a>
             <a href="#disclaimer" className="nav-link text-xs lg:text-sm">Disclaimer</a>
-            <a href="https://www.aiwebtools.ai" 
+            <a href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="nav-link text-xs lg:text-sm"
               target="_blank" 
               rel="noopener noreferrer">
