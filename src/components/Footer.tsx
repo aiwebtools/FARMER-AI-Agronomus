@@ -53,8 +53,10 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   className="text-gray-400 hover:text-agronomus-highlight transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   More AI Tools
                 </a>
@@ -76,7 +78,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   className="text-gray-400 hover:text-agronomus-highlight transition-colors"
                 >
                   Terms of Service
@@ -111,7 +113,9 @@ const Footer = () => {
             
             <div className="mt-6">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-agronomus-green to-agronomus-blue text-white font-semibold py-2 px-5 rounded-full hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
                 More AI Tools
@@ -123,7 +127,7 @@ const Footer = () => {
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="hover:text-agronomus-highlight transition-colors"
             >
               © 2025 AI WEB TOOLS LLC All rights reserved.
