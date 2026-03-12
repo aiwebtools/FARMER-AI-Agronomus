@@ -92,7 +92,7 @@ const Header = () => {
               onClick={() => setMobileMenuOpen(false)}>
               Disclaimer
             </a>
-            <a href="https://www.aiwebtools.ai" 
+            <a href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="text-gray-300 hover:text-agronomus-highlight"
               onClick={() => setMobileMenuOpen(false)}
               target="_blank" 
